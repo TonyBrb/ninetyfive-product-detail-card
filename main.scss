@@ -187,11 +187,10 @@ main{
       flex-wrap: wrap;
       width: 1110px;
       height: 351px;
-      background-color: $primary_color_card;
       margin: 0px auto 20px auto;
       color: white;
-      opacity: 0.9;
       .card-cover-left{
+        background-color: rgba(34,38,46,0.9);
         width: 665px;
         height: 100%;
         padding: 30px;

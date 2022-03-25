@@ -239,13 +239,12 @@ main .jumbotron .card-cover {
       flex-wrap: wrap;
   width: 1110px;
   height: 351px;
-  background-color: #22262E;
   margin: 0px auto 20px auto;
   color: white;
-  opacity: 0.9;
 }
 
 main .jumbotron .card-cover .card-cover-left {
+  background-color: rgba(34, 38, 46, 0.9);
   width: 665px;
   height: 100%;
   padding: 30px;
