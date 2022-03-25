@@ -151,6 +151,9 @@ footer{
           color: white;
           font-family: $primary_character;
           font-weight: bold;
+          li{
+            margin-bottom: 10px;
+          }
         }
       }
 }
@@ -187,6 +190,7 @@ main{
       background-color: $primary_color_card;
       margin: 0px auto 20px auto;
       color: white;
+      opacity: 0.9;
       .card-cover-left{
         width: 665px;
         height: 100%;
@@ -196,6 +200,10 @@ main{
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           font-size: 10px;
           color: grey;
+        }
+        .card-cover-left-price{
+          font-size: 24px;
+          font-weight: bold;
         }
         h1{
           margin-bottom: 30px;
@@ -233,6 +241,7 @@ main{
           color: grey;
           margin-top: 6px;
           margin-left: 488px;
+          margin-bottom: 30px;
         }
 
         .card-cover-left-btn{
