@@ -6,7 +6,7 @@
 }
 
 .bw-box {
-  width: calc(100% - 330px);
+  width: calc(100% - 227px);
   margin: 0 auto;
 }
 
@@ -18,6 +18,34 @@ header {
 header .header-top {
   height: 50%;
   background-color: #231F20;
+}
+
+header .header-top h6 {
+  color: grey;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+header .header-top h5 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+header .header-top .cart {
+  width: 20px;
+  height: 20px;
+  margin-top: 22px;
+  margin-bottom: 23px;
+  margin-left: 100px;
+}
+
+header .header-top .cart img {
+  width: 100%;
 }
 
 header .header-top .bw-box {
@@ -76,6 +104,20 @@ header .header-top .bw-box .header-top-btn {
 header .header-bottom {
   height: 50%;
   background-color: #AE1B21;
+}
+
+header .header-bottom ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-bottom ul li {
+  margin-right: 30px;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  color: white;
 }
 
 footer {
@@ -156,16 +198,273 @@ footer .bo ul {
   font-weight: bold;
 }
 
-main {
-  width: 100%;
+body {
   background-image: linear-gradient(0deg, rgba(35, 31, 32, 0.7), rgba(35, 31, 32, 0.7)), linear-gradient(175.6deg, #231F20 10.94%, #94171C 100%);
 }
 
-main .jumbotorn {
+main {
   width: 100%;
 }
 
-main .jumbotorn img {
+main .jumbotron {
   width: 100%;
+  min-height: 500px;
+  background-image: url("img/jumbo.png");
+  background-repeat: no-repeat;
+}
+
+main .jumbotron h3:first-of-type {
+  margin: 0px 0 54px 120px;
+  padding-top: 30px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+main .jumbotron h3:first-of-type span {
+  color: grey;
+}
+
+main .jumbotron .card-cover {
+  font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1110px;
+  height: 351px;
+  background-color: #22262E;
+  margin: 0px auto 20px auto;
+  color: white;
+}
+
+main .jumbotron .card-cover .card-cover-left {
+  width: 665px;
+  height: 100%;
+  padding: 30px;
+}
+
+main .jumbotron .card-cover .card-cover-left p:first-child {
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  color: grey;
+}
+
+main .jumbotron .card-cover .card-cover-left h1 {
+  margin-bottom: 30px;
+}
+
+main .jumbotron .card-cover .card-cover-left .quantity {
+  display: inline-block;
+  margin-left: 339px;
+}
+
+main .jumbotron .card-cover .card-cover-left .quantity .quantity-table {
+  width: 100px;
+  height: 35px;
+  display: inline-block;
+}
+
+main .jumbotron .card-cover .card-cover-left .quantity .quantity-table .quantity-table-left {
+  width: 56%;
+  height: 100%;
+  background-color: #fff;
+  margin-right: -4px;
+  color: black;
+  text-align: center;
+  padding-top: 8px;
+  display: inline-block;
+}
+
+main .jumbotron .card-cover .card-cover-left .quantity .quantity-table .quantity-table-right {
+  width: 39%;
+  background-color: #F1F1F1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  display: inline-block;
+  padding: 8px 14px;
+}
+
+main .jumbotron .card-cover .card-cover-left .avaiable {
+  font-size: 10px;
+  color: grey;
+  margin-top: 6px;
+  margin-left: 488px;
+}
+
+main .jumbotron .card-cover .card-cover-left .card-cover-left-btn {
+  background-color: #AE1B21;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  width: 160px;
+  height: 35px;
+  padding: 9px 27px;
+  font-weight: bold;
+}
+
+main .jumbotron .card-cover .card-cover-left .heart, main .jumbotron .card-cover .card-cover-left .swish {
+  margin-top: 33px;
+}
+
+main .jumbotron .card-cover .card-cover-left .swish {
+  margin-left: 32px;
+}
+
+main .jumbotron .card-cover-right {
+  width: 445px;
+  height: 100%;
+  background-color: #fff;
+  padding: 16px;
+}
+
+main .jumbotron .card-cover-right img {
+  width: 100%;
+}
+
+main .jumbotron .card-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Raleway", sans-serif;
+  width: 1110px;
+  height: 410px;
+  background-color: #313439;
+  margin: 20px auto;
+}
+
+main .jumbotron .card-description h1 {
+  color: white;
+  font-size: 14px;
+  margin: 30px 0 15px 30px;
+}
+
+main .jumbotron .card-description p {
+  color: grey;
+  font-size: 16px;
+  margin: 0 0 27px 30px;
+}
+
+main .jumbotron .card-description .card-description-left {
+  width: 385px;
+  height: 100%;
+  display: inline-block;
+}
+
+main .jumbotron .card-description .card-description-right {
+  width: 725px;
+  height: 100%;
+}
+
+main .jumbotron .card-description .card-description-right .card-description-right-up-left {
+  display: inline-block;
+  width: 50%;
+  height: 206px;
+}
+
+main .jumbotron .card-description .card-description-right .card-description-right-up-right {
+  display: inline-block;
+  width: 49%;
+  height: 206px;
+}
+
+main .jumbotron .card-description .card-description-right .card-description-right-down {
+  border-color: yellow;
+  display: inline-block;
+}
+
+main .jumbotron .card-description .card-description-right .card-description-right-down p {
+  margin-left: 30px;
+}
+
+main .related h1 {
+  margin-left: 120px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+main .related .related-cards {
+  width: 1110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .related .related-cards .related-card {
+  width: 247px;
+  background-color: #fff;
+  margin-right: 30px;
+  margin-bottom: 140px;
+}
+
+main .related .related-cards .related-card .related-card-photo {
+  width: 100%;
+  padding: 16px;
+}
+
+main .related .related-cards .related-card .related-card-photo img {
+  width: 100%;
+}
+
+main .related .related-cards .related-card .related-card-description {
+  width: 100%;
+  height: 110px;
+  background-color: #22262E;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+main .related .related-cards .related-card .related-card-description p {
+  padding: 16px 16px 26px 16px;
+}
+
+main .related .related-cards .related-card .related-card-description div {
+  padding-left: 16px;
+  font-size: 10px;
+}
+
+main .related .related-cards .related-card .related-card-bottom {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  background-color: #313439;
+}
+
+main .related .related-cards .related-card .related-card-bottom img {
+  margin: 18px;
+}
+
+main .related .related-cards .related-card .related-card-bottom .price {
+  position: absolute;
+  color: white;
+  bottom: 7px;
+  right: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+main .related .related-cards .related-card .related-card-bottom .old-price {
+  position: absolute;
+  display: inline-block;
+  color: grey;
+  text-decoration: line-through;
+  bottom: 34px;
+  right: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
